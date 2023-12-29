@@ -33,6 +33,7 @@ public class ValidacoesStringTests
         Assert.True(resultado);
     }
 
+    [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
     {
         var texto = "Começo, meio e fim do texto procurado";
